@@ -1,0 +1,2 @@
+# Cube
+Idea Intellij Plugin
