@@ -5,13 +5,13 @@
   <vendor email="lgt_livezone@live.com" url="https://crazyman.top">0z0ne</vendor>
 
   <description><![CDATA[
-      Enter short description for your plugin here.<br>
-      <em>most HTML tags may be used</em>
+      <b>Cube<b><br />
+      <em>扩展Idea的Css插件, 在左边导窗口提供对特定文件名后缀进行折叠的功能</em>
     ]]></description>
 
   <change-notes><![CDATA[
-      Add change notes here.<br>
-      <em>most HTML tags may be used</em>
+      功能描述.<br>
+      <em>对.vue和.route.js文件进行合并显示</em>
     ]]>
   </change-notes>
 

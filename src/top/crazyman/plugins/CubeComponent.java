@@ -1,26 +1,21 @@
 package top.crazyman.plugins;
 
-import com.intellij.notification.Notification;
-import com.intellij.notification.NotificationType;
-import com.intellij.notification.Notifications;
 import com.intellij.openapi.components.ApplicationComponent;
 import org.jetbrains.annotations.NotNull;
 
-import java.util.UUID;
-
 public class CubeComponent implements ApplicationComponent {
     public CubeComponent() {
-        notify("执行", "CubeComponent");
+        notify("RUN", "CubeComponent");
     }
 
     @Override
     public void initComponent() {
-        notify("执行", "initComponent");
+        notify("RUN", "initComponent");
     }
 
     @Override
     public void disposeComponent() {
-        notify("执行", "disposeComponent");
+        notify("RUN", "disposeComponent");
     }
 
     @Override
@@ -30,7 +25,7 @@ public class CubeComponent implements ApplicationComponent {
     }
 
     private void notify(String title, String msg) {
-        Notification notification = new Notification("Cube", title, msg, NotificationType.WARNING);
-        Notifications.Bus.notify(notification);
+//        Notification notification = new Notification("Cube", title, msg, NotificationType.WARNING);
+//        Notifications.Bus.notify(notification);
     }
 }
